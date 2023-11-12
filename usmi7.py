@@ -189,7 +189,7 @@ db    db .d8888. .88b  d88. d888888b d888888b
 {WHITE}[•] STYLE         : BUAHAHAHAHAHHAHH
 {WHITE}[•] WhatsApp     :   +923238272402
 [•] FaceBook     :   Usman Gull
-[•] Version      :   {RED}4.1
+[•] Version      :   {RED}4.2
 {WHITE}[•] YouTube      :   USMII Tech
 
 {WHITE}================================================
@@ -246,8 +246,8 @@ def approval():
   try:
     httpCaht = get_response('https://github.com/Kkiijj/Usmi/blob/main/Mahiya.txt')
     if realid in httpCaht:
-      #print("\3[1;32m YOUR KEY IS APPROVED.")
-      #msg = str(os.geteuid())
+      print("\3[1;32m YOUR KEY IS APPROVED.")
+      msg = str(os.geteuid())
       pass
     else:
       print("\33[1;32m YOUR KEY :\x1b[38;5;46m "+id)
